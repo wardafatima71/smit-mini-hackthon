@@ -1,0 +1,622 @@
+/* General Styles */
+body {
+  font-family: "Space Grotesk", sans-serif !important;
+  width: 100%; /* Full width for responsiveness */
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent !important;
+
+  top: 1.2rem !important;
+  padding: 1rem; /* Add padding for spacing */
+}
+
+.navbar-brand {
+  width: 219px;
+  height: 36px;
+  transition: linear 0.2s;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.one-1:hover {
+  border-bottom: 3px solid rgba(185, 255, 102, 1);
+}
+
+.navbar-nav {
+  font-weight: 600 !important;
+  font-size: 1.2rem;
+  padding-right: 2rem;
+  margin-left: 2rem;
+}
+
+.btn-outline-success {
+  font-weight: 500 !important;
+  width: 180px;
+  margin-top: 10px;
+  border-radius: 5px !important;
+  background-color: transparent !important;
+  color: rgb(0, 0, 0) !important;
+  border-color: black !important;
+  transition: linear 2.1s;
+}
+
+.btn-outline-success:hover {
+  transform: scale(1.1);
+  box-shadow: 12px 12px 12px 0px rgba(185, 255, 102, 1);
+}
+/* Container */
+.container-1 {
+  margin: 4rem;
+
+  display: flex;
+  margin-left: 3rem;
+  padding-top: 1.5rem !important;
+}
+
+.para h2 {
+  margin: 1.8rem;
+  font-size: 3rem;
+  color: black;
+  font-weight: 500 !important;
+}
+
+h5 {
+  margin: 1.2rem;
+  font-size: 2rem;
+  color: black;
+}
+
+.button-one {
+  margin: 2rem;
+  padding: 1rem;
+  border-color: rgb(51, 43, 43);
+  background-color: rgb(51, 43, 43);
+  color: beige;
+  border-radius: 13px;
+}
+
+.btn-lg {
+  margin: 2rem;
+  color: beige;
+  border-radius: 14px !important;
+  background-color: rgb(21, 17, 17) !important;
+  padding: 15px 20px !important;
+  transition: 0.5s !important;
+}
+
+.btn-lg:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 12px 10px 2px rgb(65, 60, 60);
+}
+/* Logos */
+.logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 5px;
+
+  margin-top: 1rem;
+}
+
+.logos img {
+  border-radius: 21px;
+  color: black;
+  width: 12%;
+  object-fit: contain;
+  transition: linear 0.1s;
+}
+
+.logos img:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 4px 4px rgb(57, 58, 56);
+}
+/* Special Cards */
+
+.special-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 4rem;
+}
+
+.special-card {
+  margin: 1rem;
+  transition: linear 0.2s;
+  cursor: pointer;
+  width: 50%;
+  max-width: 900px;
+}
+
+.special-card:hover {
+  transform: scale(1.1);
+}
+/* Services */
+.services {
+
+  display: flex;
+  padding: 4rem 4rem;
+}
+
+.head,
+.two-lines {
+  margin-left: 4rem;
+}
+.head h4{
+    color: black;
+}
+.two-lines{
+    color: black;
+    font-weight: 400;
+}
+.head {
+
+  background-color: rgba(185, 255, 102, 1);
+  border-radius: 15px;
+}
+
+.img-two {
+  display: flex;
+  align-items: center !important;
+  padding-left: 1rem;
+  margin-left: 6rem;
+  gap: 20px;
+}
+
+.img-two img {
+  width: 250px;
+  height: 250px;
+
+  padding: 0.5rem;
+}
+
+/* Cards */
+.card-one,
+.card-two {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin: 4rem;
+  transition: linear 0.2s;
+}
+
+.card-one img,
+.card-two img {
+  width: 450px;
+  height: auto;
+}
+
+.card-one:hover,
+.card-two:hover {
+  transform: scale(1.1);
+}
+
+/* Work Section */
+.work {
+
+  display: flex;
+  padding: 4rem;
+}
+
+.heading,
+.small-lines {
+  margin-left: 4rem;
+}
+
+.small-lines{
+    color: black;
+    font-weight: 400;
+}
+.heading h4{
+    color: black;
+}
+.heading {
+
+  background-color: rgba(185, 255, 102, 1);
+  border-radius: 15px;
+}
+/* .special-cards{
+    margin: 1rem;
+    display: block;
+    padding-bottom: 5rem;
+    transition: linear 0.2s;
+  } */
+
+.special-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  gap: 20px; /* This adds space between the items */
+}
+
+.special-cards img {
+  width: 100%; /* Adjust width as needed */
+  height: auto;
+  object-fit: contain; /* Keep image contained */
+  transition: linear 0.2s;
+}
+
+.special-cards img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 430px) {
+  .special-cards {
+    padding: 1rem;
+    gap: 10px; /* Adjust gap for smaller screens */
+  }
+
+  .special-cards img {
+    width: 80%; /* Full width for smaller screens */
+  }
+}
+
+.sp1 {
+  height: 90px;
+  width: 850px !important;
+  transition: linear 0.2s;
+}
+.sp1:hover {
+  transform: scale(1.1);
+}
+.sp2 {
+  height: 90px;
+  width: 850px !important;
+}
+.sp3 {
+  height: 90px;
+  width: 850px !important;
+}
+.sp4 {
+  height: 90px;
+  width: 850px !important;
+}
+.sp5 {
+  height: 90px;
+  width: 850px !important;
+}
+.sp6 {
+  height: 90px;
+  width: 850px !important;
+}
+
+/* Responsive for 430px screens */
+@media (max-width: 430px) {
+  /* Navbar */
+  .navbar {
+    flex-direction:row;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    width: 150px;
+    height: auto;
+  }
+
+  /* Container */
+  .container-1 {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .para {
+    text-align: center;
+  }
+
+  /* Special Cards */
+  .special-cards {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .special-card {
+    width: 100%; /* Full width on small screens */
+    max-width: 100%;
+  }
+
+  /* Logos */
+  .logos {
+    grid-template-columns: repeat(3, 1fr); /* Display logos in 3 columns */
+    padding: 10px;
+  }
+
+  /* Images */
+  .img-two {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  /* Cards */
+  .card-one,
+  .card-two {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Services and Work */
+  .services,
+  .work {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .heading,
+  .small-lines {
+    margin-left: 0;
+  }
+}
+
+/* Work Section */
+.contact {
+   
+    display: flex;
+    padding: 4rem;
+  }
+  
+  .head-work,
+  .two-lines {
+    margin-left: 4rem;
+  }
+  
+  .head-work {
+
+  
+    background-color: rgba(185, 255, 102, 1);
+    border-radius: 15px;
+  }
+  .head-work h4{
+    color: black;
+  }
+  .two-lines{
+    color: black;
+    font-weight: 400;
+  }
+  .form{
+    height: 550PX;
+    
+    text-align:start;
+    padding-left: 12rem;
+    color: black;
+    font-size: 22px;
+  }
+  .btn-lg{
+    margin: 2rem;
+    color: beige !important;
+    border-radius: 14px !important;
+    background-color: rgb(21, 17, 17) !important;
+    padding: 15px 20px !important;
+    transition: 0.5s !important;
+  }
+  .btn-secondary-one{
+    margin-left: 2rem;
+    padding: 1rem !important;
+    width: 45%;
+  }
+
+.form , .form-img{
+display: inline;
+padding-left: 21rem;
+}
+.content,.form-img{
+    display:inline;
+ 
+}
+
+ .form-img{
+    text-align: end !important;
+    padding-left: 21rem !important;
+ }
+ /* Base styling for responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Responsive adjustments for medium screens (tablets, etc.) */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar-brand {
+      width: 180px;
+      height: auto;
+    }
+  
+    .container-1 {
+      margin: 2rem;
+      padding: 1rem;
+      margin-left: 0;
+    }
+  
+    .special-cards {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .special-card {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .logos img {
+      width: 20%; /* Adjust the size of the logos */
+    }
+  
+    .img-two {
+      flex-direction: column;
+      margin-left: 0;
+    }
+  
+    .card-one img, .card-two img {
+      width: 100%; /* Full width on smaller screens */
+    }
+  
+    .services,
+    .work,
+    .contact {
+      flex-direction: column;
+      padding: 2rem;
+      align-items: center;
+    }
+  
+    .head,
+    .heading,
+    .head-work,
+    .small-lines,
+    .two-lines {
+      margin-left: 0;
+    }
+  
+    .form,
+    .form-img {
+      padding-left: 0;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .btn-secondary-one {
+      width: 100%;
+      padding: 1rem;
+      margin-left: 0;
+    }
+  }
+  
+  /* Responsive adjustments for smaller screens (smartphones, etc.) */
+  @media (max-width: 576px) {
+    .navbar {
+      padding: 5px;
+    }
+  
+    .navbar-brand {
+      width: 140px;
+      height: auto;
+    }
+  
+    .container-1 {
+      margin: 1rem;
+      padding: 0.5rem;
+    }
+  
+    .para h2 {
+      font-size: 2rem;
+    }
+  
+    .special-cards {
+      padding: 0.5rem;
+    }
+  
+    .special-card {
+      width: 100%;
+    }
+  
+    .logos img {
+      width: 10%; /* Further reduce the size of the logos */
+    }
+  
+    .img-two img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .card-one img, .card-two img {
+      width: 100%; /* Adjust for very small screens */
+    }
+  
+    .services, .work, .contact {
+      padding: 1rem;
+    }
+  
+    .form,
+    .form-img {
+      padding: 0;
+      text-align: center;
+    }
+  
+    .btn-secondary-one {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  /* Fine-tuning for extra-small screens (phones in portrait mode) */
+  @media (max-width: 400px) {
+    .navbar-brand {
+      width: 100px;
+    }
+  
+    .container-1 {
+      margin: 0.5rem;
+      padding: 0.5rem;
+    }
+  
+    .para h2 {
+      font-size: 1.5rem;
+    }
+  
+    .logos img {
+      width: 30%; /* Full width for logos */
+    }
+  
+    .img-two img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .form,
+    .form-img {
+      padding: 0;
+      width: 100%;
+    }
+  
+    .btn-secondary-one {
+      width: 100%;
+    }
+  }
+  /* Base styling for images and text */
+.img-one-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img-one-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-one-container p {
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 576px) {
+  .img-one-container {
+    padding: 1rem;
+  }
+
+  .img-one-container p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Fine-tuning for extra-small screens */
+@media (max-width: 400px) {
+  .img-one-container p {
+    font-size: 0.8rem;
+  }
+}
